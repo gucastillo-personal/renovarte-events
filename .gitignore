@@ -1,0 +1,26 @@
+# Terraform
+infra/.terraform/
+infra/.terraform.lock.hcl
+infra/*.tfstate
+infra/*.tfstate.*
+infra/terraform.tfvars
+infra/build/
+infra/crash.log
+
+# Python (producer)
+producer/.venv/
+producer/__pycache__/
+producer/**/__pycache__/
+producer/.pytest_cache/
+producer/*.egg-info/
+
+# Node (consumer)
+consumer/node_modules/
+
+# Env / secrets
+.env
+.env.*
+!.env.example
+
+# OS
+.DS_Store

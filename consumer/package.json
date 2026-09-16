@@ -1,0 +1,13 @@
+{
+  "name": "renovarte-events-consumer",
+  "version": "0.1.0",
+  "description": "Lambda handler: consume SQS (cambios de precio) y notifica a Discord.",
+  "type": "module",
+  "private": true,
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test"
+  }
+}

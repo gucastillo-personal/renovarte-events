@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-09-16T09:03:11+00:00",
+  "changes": [
+    { "kind": "added", "id": "srl-1023", "nombre": "Rodillo Antigota 23cm", "old_price": null, "new_price": 4200 },
+    { "kind": "removed", "id": "srl-0899", "nombre": "Lija al Agua 220", "old_price": 1500, "new_price": null },
+    { "kind": "price_up", "id": "srl-0456", "nombre": "Latex Interior 20L", "old_price": 38000, "new_price": 41000 },
+    { "kind": "price_down", "id": "srl-0777", "nombre": "Esmalte Sintético 4L", "old_price": 15900, "new_price": 13900 }
+  ]
+}

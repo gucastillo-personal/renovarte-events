@@ -1,0 +1,5 @@
+# Copiar a terraform.tfvars (gitignoreado) y completar con valores reales.
+# `terraform apply` requiere aprobación humana explícita — ver CLAUDE.md.
+
+aws_region          = "us-east-1"
+discord_webhook_url = "https://discord.com/api/webhooks/XXXXXXXX/XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
