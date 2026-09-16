@@ -15,3 +15,9 @@ variable "discord_webhook_url" {
   type        = string
   sensitive   = true
 }
+
+variable "github_repo" {
+  description = "Repo de GitHub (org/nombre) autorizado a asumir el rol de OIDC para publicar eventos desde CI."
+  type        = string
+  default     = "gucastillo-personal/renovarte-pipeline"
+}

@@ -17,3 +17,8 @@ output "lambda_function_name" {
   description = "Nombre de la función Lambda (para ver logs con `aws logs tail`)."
   value       = aws_lambda_function.consumer.function_name
 }
+
+output "github_actions_role_arn" {
+  description = "ARN del rol que renovarte-pipeline asume vía OIDC para publicar eventos (role-to-assume en publish.yml)."
+  value       = aws_iam_role.github_actions_producer.arn
+}
