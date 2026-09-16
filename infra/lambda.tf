@@ -24,6 +24,6 @@ resource "aws_lambda_function" "consumer" {
 resource "aws_lambda_event_source_mapping" "sqs_to_consumer" {
   event_source_arn        = aws_sqs_queue.price_changes.arn
   function_name           = aws_lambda_function.consumer.arn
-  batch_size               = 10
+  batch_size              = 10
   function_response_types = ["ReportBatchItemFailures"]
 }
