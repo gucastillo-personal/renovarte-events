@@ -8,7 +8,7 @@ resource "aws_lambda_function" "consumer" {
   function_name    = "${var.project_name}-consumer"
   role             = aws_iam_role.consumer.arn
   handler          = "handler.handler"
-  runtime          = "nodejs20.x"
+  runtime          = "nodejs22.x"
   filename         = data.archive_file.consumer_zip.output_path
   source_code_hash = data.archive_file.consumer_zip.output_base64sha256
   timeout          = 10
